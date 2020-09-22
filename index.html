@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Height Conversion</h1>
+    </header>
+
+    <main>
+        <section class="feet-area">
+            <label for="feet">Feet</label>
+            <input type="number" step="0" min="0" value="0" name="feet" id="feet" class="feet">
+        </section>
+        <section class="inches-area">
+
+            <label for="inches">Inches </label>
+            <p class="warning-off">number should not be larger than 11</p>
+
+            <input type="number" step="0" min="0" max="11" value="0" name="inches" id="inches" class="inches">
+        </section>
+        <button class="button">Convert</button>
+        <section class="meters-area">
+            <label for="meters">Meters</label>
+            <input type="number" min="0" value="0" readonly name="meters" id="meters" class="meters">
+        </section>
+
+        <script src="./assets/js/script.js"></script>
+</body>
+</html>
