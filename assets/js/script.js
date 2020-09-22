@@ -1,29 +1,4 @@
-// const changed = () => {
-//   const amountField = document.querySelector('.amount');
-//   const qualityField = document.querySelector('.quality');
-//   const totalField = document.querySelector('.total');
-
-//   let amountValue = parseFloat(amountField.value);
-//   const qualityValue = qualityField.value;
-
-//   let percentage = 0;
-//   if (qualityValue == 'poor') {
-//     percentage = 0.1;
-//   } else if (qualityValue == 'average') {
-//     percentage = 0.2;
-//   } else if (qualityValue == 'great') {
-//     percentage = 0.25;
-//   }
-
-//   let total = (amountValue * (1 + percentage)).toFixed(2);
-//   return (totalField.value = total);
-// };
-
-// const amountField = document.querySelector('.amount');
-// const qualityField = document.querySelector('.quality');
-
-// amountField.addEventListener('change', changed);
-// qualityField.addEventListener('change', changed);
+//start here
 
 const convert = document.querySelector('.button');
 
